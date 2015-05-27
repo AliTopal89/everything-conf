@@ -9,20 +9,20 @@ standard deviation is the square root of variance
 -For a finite set of numbers, the standard deviation is found by taking the square root of the average of the squared deviations of the values from their average value. For example, the marks of a class of eight students (that is, a population) are the following eight values:
 2,\  4,\  4,\  4,\  5,\  5,\  7,\  9.
 These eight data points have the mean (average) of 5:
-    \frac{2 + 4 + 4 + 4 + 5 + 5 + 7 + 9}{8} = 5.  
+    (2 + 4 + 4 + 4 + 5 + 5 + 7 + 9)/8 = 5.  
 First, calculate the deviations of each data point from the mean, and square the result of each:
 
-    \begin{array}{lll}
+    
     (2-5)^2 = (-3)^2 = 9  &&  (5-5)^2 = 0^2 = 0 \\
     (4-5)^2 = (-1)^2 = 1  &&  (5-5)^2 = 0^2 = 0 \\
     (4-5)^2 = (-1)^2 = 1  &&  (7-5)^2 = 2^2 = 4 \\
     (4-5)^2 = (-1)^2 = 1  &&  (9-5)^2 = 4^2 = 16. \\
-    \end{array}
+    \
   
 The variance is the mean of these values:
-\frac{9 + 1 + 1 + 1 + 0 + 0 + 4 + 16}{8} = 4.
+(9 + 1 + 1 + 1 + 0 + 0 + 4 + 16)/8 = 4.
 and the **population** standard deviation is equal to the square root of the variance:
-\sqrt{ 4 } = 2.
+√4 = 2.
 
 -Sample variance where it is (n-1) The purpose of this little difference it to get a better and unbiased estimate of the population‘s variance
 
@@ -34,3 +34,6 @@ and the **population** standard deviation is equal to the square root of the var
 
 -Knowing what Standard Deviation is and how it’s used in Web Analytics will help you get an idea of just how important events that happen on your website could be
 
+- Furthermore sometimes trends are hard to spot, but with standard deviations they are easy to pick up
+
+- a large variation is an indication of an unstable process (think conversion rate), or low reproductibitiliy (anecdotal campaign success), or if you prefer, a larger standard deviation reduces our ability to predict the value of Y given a certain X. Basically, as analysts, we want to explain the past, but we also want to provide insight on how to fix issues and seize opportunities – we eventually want to be able to predict outcomes of our recommendations.
