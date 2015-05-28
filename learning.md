@@ -4,7 +4,7 @@
 
 standard deviation is the square root of variance
 
--Variance is defined and calculated as the average squared deviation from the mean.
+-Variance is defined and calculated as the average squared deviation from the mean, measures how far a set of numbers is spread out.
 
 -For a finite set of numbers, the standard deviation is found by taking the square root of the average of the squared deviations of the values from their average value. For example, the marks of a class of eight students (that is, a population) are the following eight values:
 2,\  4,\  4,\  4,\  5,\  5,\  7,\  9.
